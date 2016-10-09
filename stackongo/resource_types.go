@@ -173,6 +173,7 @@ type Question struct {
 	Closed_date          int64
 	Protected_date       int64
 	Body                 string
+    Body_markdown        string
 	Title                string
 	Tags                 []string
 	Closed_reason        string
